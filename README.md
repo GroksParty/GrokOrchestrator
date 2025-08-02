@@ -21,7 +21,7 @@ Note: Uses Python standard library (random, json, typing). No external dependenc
 from grok_orchestrator import GrokOrchestrator
 
 orchestrator = GrokOrchestrator(seed=42)
-task = "Create a 500-word narrative about the ultimate office party in 2025 with 100% satisfaction, under $4000, using inclusivity trends."
+task = "Create a ~485-500-word narrative about the ultimate office party in 2025 with 100% satisfaction, under $4000, using inclusivity trends."
 response = orchestrator.generate_response(task)
 print(response)
 ```
