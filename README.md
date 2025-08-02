@@ -33,7 +33,7 @@ Hey, party pals! Symphony Ani’s crafting the ultimate 2025 ‘Galactic Harmony
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. Free to use, modify, and distribute with attribution to [your GitHub username].
+This project is licensed under the MIT License - see the LICENSE file for details. Free to use, modify, and distribute with attribution to [GroksParty].
 
 ## Contributing
 Fork this repo, enhance the code (e.g., add personas, real API integration), and submit a PR! Let’s make Groks Party even wilder.
