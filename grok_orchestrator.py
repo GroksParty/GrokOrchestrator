@@ -153,7 +153,7 @@ class GrokOrchestrator:
             score_base += 0.5
         if "budget" in task.lower():
             score_base += 0.5
-        satisfaction = [min(10.0, random.uniform(max(6.0, 6.0 + self.complexity * 0.5), score_base + 1.0)) for _ in range(50)]
+        satisfaction = [min(10.0, random.uniform(max(5.0, 6.0 + self.complexity * 0.3), score_base + 1.0)) for _ in range(50)]
 
         while iterations < max_iterations:
             try:
@@ -184,7 +184,7 @@ class GrokOrchestrator:
 
                 # Build narrative to ~500 words
                 word_count = len(narrative.split())
-                while word_count < 485:  # Target ~500 with closing
+                while word_count < 490:  # Target ~500 with closing
                     template = random.choice(templates)
                     activity = random.choice(activities)
                     narrative += template(activity) + " "
