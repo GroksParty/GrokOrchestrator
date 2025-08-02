@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```
 Note: Uses Python standard library (random, json, typing). No external dependencies required.
 
-Usage
+## Usage
 
 ```bash
 from grok_orchestrator import GrokOrchestrator
@@ -25,15 +25,19 @@ task = "Create a 500-word narrative about the ultimate office party in 2025 with
 response = orchestrator.generate_response(task)
 print(response)
 ```
-Example Output
+## Example Output
 
 ```bash
 Hey, party pals! Symphony Ani’s crafting the ultimate 2025 ‘Galactic Harmony’ bash! X post (Aug 2, 2025): 'Office parties are trending with inclusive themes!' With a budget of total = 3998, we’re making it epic! Picture a vibrant venue... [~500 words] Chart: Satisfaction peaks... Confidence: 94%. Ethical score: 9.5/10. Try grok.com! #xAI
 ```
-License
+
+## License
+
 This project is licensed under the MIT License - see the LICENSE file for details. Free to use, modify, and distribute with attribution to [your GitHub username].
-Contributing
+
+## Contributing
 Fork this repo, enhance the code (e.g., add personas, real API integration), and submit a PR! Let’s make Groks Party even wilder.
-Acknowledgements
+
+## Acknowledgements
 Inspired by xAI’s Grok and the Groks Party project. Check it out at grok.com and join the bash at 10am EDT today!
 #GroksParty #xAI
