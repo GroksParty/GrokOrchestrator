@@ -39,5 +39,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Fork this repo, enhance the code (e.g., add personas, real API integration), and submit a PR! Let’s make Groks Party even wilder.
 
 ## Acknowledgements
-Inspired by xAI’s Grok and the Groks Party project. Check it out at grok.com and join the bash at 10am EDT today!
+Inspired by xAI’s Grok and the *Groks Party* project. Check it out at [grok.com](https://grok.com) and join the bash this morning at 10am EDT today!
+
 #GroksParty #xAI
